@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FileHub.com.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FileHub_com_localhost_SearchFile" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/FileHub.com/SearchFile.asmx</Value>
+    </Setting>
+    <Setting Name="FileHub_com_localhost1_Register" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/FileHub.com/Register.asmx</Value>
+    </Setting>
+    <Setting Name="FileHub_com_localhost2_UploadDocument" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/FileHub.com/UploadDocument.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

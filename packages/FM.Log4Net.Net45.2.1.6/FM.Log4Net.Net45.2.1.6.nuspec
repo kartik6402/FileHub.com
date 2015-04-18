@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>FM.Log4Net.Net45</id>
+    <version>2.1.6</version>
+    <title>FM Log4Net Logging for .NET 4.5</title>
+    <authors>Frozen Mountain Software</authors>
+    <owners>Frozen Mountain Software</owners>
+    <projectUrl>http://www.frozenmountain.com/</projectUrl>
+    <iconUrl>http://www.frozenmountain.com/images/fm-logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library for .NET 4.5 that provides logging via the log4net library. (Community Edition)</description>
+    <tags>FM Log4Net Logging Frozen Mountain log4net .NET 4.5</tags>
+    <dependencies>
+      <dependency id="FM.Net45" />
+      <dependency id="log4net" />
+    </dependencies>
+  </metadata>
+</package>

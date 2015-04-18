@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FileHub.com.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--<link rel="stylesheet" type="text/css" href="css/default.css" />--%>
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+</head>
+<body Bgcolor="Black">
+
+    <div >
+    <form id="form1" runat="server">
+    <div>
+        <div style="text-align:center">
+        <asp:Image ID="Image1" ImageUrl="~/Capture.PNG" runat="server" />  
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+        
+    </form>
+        </div>
+   
+</body>
+</html>
